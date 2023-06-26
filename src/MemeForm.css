@@ -1,0 +1,71 @@
+.MemeForm {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+  width: 80%;
+  padding: 10px;
+  border: 1px solid black;
+}
+.MemeForm-container {
+  width: 100%;
+}
+
+.MemeForm-input-container {
+  margin: 10px;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.MemeForm-input {
+  border: 2px solid lightgray;
+  background-color: white;
+  border-radius: 0.25rem;
+  font: 1.25rem / 1.5 sans-serif;
+  /* box-sizing: border-box; */
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+}
+
+.MemeForm-label {
+  font: 1.5rem sans-serif;
+  margin-bottom: 0.5rem;
+  padding-right: 10px;
+}
+
+.MemeForm-btn {
+  align-items: center;
+  background-color: white;
+  border: 2px solid black;
+  box-sizing: border-box;
+  color: black;
+  display: inline-flex;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  min-width: 140px;
+  padding: 0 17px;
+  text-align: center;
+  transition: all 0.3s;
+}
+
+.MemeForm-btn:focus {
+  color: #171e29;
+}
+
+.MemeForm-btn:hover {
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+}
+
+.MemeForm-btn:active {
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+}

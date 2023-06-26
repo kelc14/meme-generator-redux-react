@@ -1,0 +1,68 @@
+.Meme {
+  width: 100%;
+  position: relative;
+  margin-bottom: 25px;
+}
+.Meme-container {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.Meme-text {
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  width: 100%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  left: 50%;
+}
+
+.Meme-top-text {
+  position: absolute;
+  top: 0px;
+}
+.Meme-bottom-text {
+  position: absolute;
+  bottom: 0px;
+}
+
+.Meme-img {
+  width: 100%;
+}
+
+.Meme-btn-container {
+  width: 80%;
+  height: 100%;
+  /* margin: 10px;
+      padding: 5px; */
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  display: none;
+  justify-content: center;
+}
+
+.Meme:hover .Meme-btn-container {
+  display: flex;
+}
+
+.Meme-btn {
+  /* background-color: red; */
+  padding: 20px;
+  font-size: 4rem;
+  font-weight: 800;
+  width: 100%;
+  border: none;
+  color: red;
+
+  background-color: rgba(0, 0, 0, 0);
+}
